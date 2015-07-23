@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Photoshop is Dead",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "una",
+    "githubRepository": "slides-ps-is-dead"
+  }
+}
