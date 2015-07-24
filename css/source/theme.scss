@@ -51,3 +51,7 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+
+// Building onto the theme ---------------------
+@import "bottom-bar";
+// ---------------------------------------------
