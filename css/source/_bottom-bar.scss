@@ -1,13 +1,13 @@
 .reveal {
 
   .addtl-info {
-    font-size: .8em;
+    font-size: .65em;
     width: 100%;
-    background: dimgrey;
+    background: rgba(0,0,0,.5);
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-bottom: 20px;
+    padding-bottom: .5em;
 
     ul {
       list-style: none;
@@ -22,12 +22,12 @@
 
     .caniuse {
       float: left;
-      margin-top: .5em;
+      margin-top: 1em;
 
       li {
-        padding: 1.5em;
+        padding: 2em;
         margin: 0 1em;
-        font-size: .5em;
+        font-size: .4em;
         background: lightgreen;
         border-radius: 50%;
         display: inline-block;
@@ -35,10 +35,10 @@
         position: relative;
 
         &:before {
-          font-size: 1.5em;
+          font-size: 2em;
           content: attr(data-v);
           position: absolute;
-          bottom: -2.5em;
+          bottom: -2.25em;
           left: 0;
           width: 100%;
         }

@@ -16,7 +16,7 @@ this is a code test
 <div class="addtl-info">
     <ul class="metadata">
         <li class="hashtag">#PSisDead</li>
-        <li class="handle">@una</li>
+        <li class="handle">@una 😘</li>
     </ul>
     <ul class="caniuse">
         <li class="chrome" data-v="37"></li>

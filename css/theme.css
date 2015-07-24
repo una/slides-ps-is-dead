@@ -266,17 +266,20 @@ body {
 .reveal .slide-number {
   color: #42affa; }
 
-.reveal.slide section {
-  height: 100%; }
+.reveal .slides > section {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1em 0 0; }
 
 .reveal .addtl-info {
-  font-size: 0.8em;
+  font-size: 0.65em;
   width: 100%;
-  background: dimgrey;
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   left: 0;
-  padding-bottom: 20px; }
+  padding-bottom: 0.5em; }
   .reveal .addtl-info ul {
     list-style: none;
     padding: 0;
@@ -286,21 +289,21 @@ body {
     padding: 1em 2em 1em 1em; }
   .reveal .addtl-info .caniuse {
     float: left;
-    margin-top: 0.5em; }
+    margin-top: 1em; }
     .reveal .addtl-info .caniuse li {
-      padding: 1.5em;
+      padding: 2em;
       margin: 0 1em;
-      font-size: 0.5em;
+      font-size: 0.4em;
       background: lightgreen;
       border-radius: 50%;
       display: inline-block;
       text-align: center;
       position: relative; }
       .reveal .addtl-info .caniuse li:before {
-        font-size: 1.5em;
+        font-size: 2em;
         content: attr(data-v);
         position: absolute;
-        bottom: -2.5em;
+        bottom: -2.25em;
         left: 0;
         width: 100%; }
       .reveal .addtl-info .caniuse li:after {
