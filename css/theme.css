@@ -265,3 +265,54 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #42affa; }
+
+.reveal.slide section {
+  height: 100%; }
+
+.reveal .addtl-info {
+  font-size: 0.8em;
+  width: 100%;
+  background: dimgrey;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px; }
+  .reveal .addtl-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .reveal .addtl-info .metadata {
+    float: left;
+    padding: 1em 2em 1em 1em; }
+  .reveal .addtl-info .caniuse {
+    float: left;
+    margin-top: 0.5em; }
+    .reveal .addtl-info .caniuse li {
+      padding: 1.5em;
+      margin: 0 1em;
+      font-size: 0.5em;
+      background: lightgreen;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      position: relative; }
+      .reveal .addtl-info .caniuse li:before {
+        font-size: 1.5em;
+        content: attr(data-v);
+        position: absolute;
+        bottom: -2.5em;
+        left: 0;
+        width: 100%; }
+      .reveal .addtl-info .caniuse li:after {
+        position: absolute;
+        bottom: -1.8em;
+        left: 0;
+        width: 100%; }
+    .reveal .addtl-info .caniuse .chrome:after {
+      content: 'Chrome'; }
+    .reveal .addtl-info .caniuse .ff:after {
+      content: 'Firefox'; }
+    .reveal .addtl-info .caniuse .safari:after {
+      content: 'Safari'; }
+    .reveal .addtl-info .caniuse .ie:after {
+      content: 'IE'; }

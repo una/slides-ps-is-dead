@@ -1,6 +1,13 @@
 [
-    "slide-title.html",
-    "hello-berlin.md",
-    "directions.md",
-    "test.md"
+  "slide-title.html",
+  "hello-berlin.md",
+  "directions.md",
+  "test.md",
+  {
+    "filename": "test.md",
+    "attr": {
+      "data-background": "#ff0000",
+      "data-usage": "true"
+    }
+  }
 ]

@@ -1,0 +1,79 @@
+.reveal {
+
+  .addtl-info {
+    font-size: .8em;
+    width: 100%;
+    background: dimgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .metadata {
+      float: left;
+      padding: 1em 2em 1em 1em;
+    }
+
+    .caniuse {
+      float: left;
+      margin-top: .5em;
+
+      li {
+        padding: 1.5em;
+        margin: 0 1em;
+        font-size: .5em;
+        background: lightgreen;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+
+        &:before {
+          font-size: 1.5em;
+          content: attr(data-v);
+          position: absolute;
+          bottom: -2.5em;
+          left: 0;
+          width: 100%;
+        }
+
+        &:after {
+          position: absolute;
+          bottom: -1.8em;
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      .chrome {
+        &:after {
+          content: 'Chrome'
+        }
+      }
+
+      .ff {
+        &:after {
+          content: 'Firefox'
+        }
+      }
+
+      .safari {
+        &:after {
+          content: 'Safari'
+        }
+      }
+
+      .ie {
+        &:after {
+          content: 'IE'
+        }
+      }
+    }
+  }
+}
