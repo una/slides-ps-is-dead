@@ -1,13 +1,37 @@
 [
-  "slide-title.html",
-  "hello-berlin.md",
-  "directions.md",
+  {
+    "filename": "slide-title.html",
+    "attr": {
+      "data-center": "true"
+    }
+  },
+  {
+    "filename": "hello-berlin.md",
+    "attr": {
+      "data-transition": "none",
+      "data-center": "true"
+    }
+  },
+  [ {
+      "filename": "code-editing.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+      {
+      "filename": "code-editing2.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    }
+  ],
   "test.md",
   {
     "filename": "test.md",
     "attr": {
       "data-background": "#ff0000",
-      "data-usage": "true"
+      "data-usage": "true",
+      "data-transition": "slide"
     }
   },
   "end.md"

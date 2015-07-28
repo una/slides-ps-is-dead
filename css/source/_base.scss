@@ -1,8 +1,35 @@
 .reveal {
-  .slides > section {
-    width: 100%;
+  section {
     height: 100%;
-    box-sizing: border-box;
-    padding: 1em 0 0;
+    width: 100%;
+    position: relative;
+    text-align: left;
+
+    &[data-center="true"] {
+      text-align: center;
+    }
+  }
+
+  pre code {
+    font-family: 'Input Mono', monospace;
   }
 }
+
+.code-editor {
+  width: 50%;
+  display: block;
+  font-size: .5em;
+  float: right;
+  outline: 1px solid dimgray;
+  text-align: left;
+  background: #FFF;
+  color: #444;
+  line-height: 1em;
+  white-space: pre-wrap;
+  font-family: 'Input Mono', monospace;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
