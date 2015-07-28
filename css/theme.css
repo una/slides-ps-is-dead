@@ -22,7 +22,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #bee4fd;
+  background: hotpink;
   text-shadow: none; }
 
 .reveal .slides > section, .reveal .slides > section > section {
@@ -187,20 +187,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #FADD2C;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #fce877;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #068ee9; }
+  background: #d4b505; }
 
 /*********************************************
  * IMAGES
@@ -218,35 +218,35 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #42affa;
+  border-color: #FADD2C;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
-  border-right-color: #42affa; }
+  border-right-color: #FADD2C; }
 
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
-  border-left-color: #42affa; }
+  border-left-color: #FADD2C; }
 
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #42affa; }
+  border-bottom-color: #FADD2C; }
 
 .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
-  border-top-color: #42affa; }
+  border-top-color: #FADD2C; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #8dcffc; }
+  border-right-color: #fce877; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #8dcffc; }
+  border-left-color: #fce877; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #8dcffc; }
+  border-bottom-color: #fce877; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #8dcffc; }
+  border-top-color: #fce877; }
 
 /*********************************************
  * PROGRESS BAR
@@ -255,7 +255,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #42affa;
+  background: #FADD2C;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -264,7 +264,7 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #42affa; }
+  color: #FADD2C; }
 
 .reveal section {
   height: 100%;
@@ -285,7 +285,7 @@ body {
   text-align: left;
   background: #FFF;
   color: #444;
-  line-height: 1em;
+  line-height: 1.25;
   white-space: pre-wrap;
   font-family: 'Input Mono', monospace; }
   .code-editor:focus {
@@ -343,51 +343,22 @@ body {
 .reveal .heading-area {
   height: 4em; }
 
-.reveal .addtl-info {
-  font-size: 0.65em;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-bottom: 0.5em; }
-  .reveal .addtl-info ul {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-  .reveal .addtl-info .metadata {
-    float: left;
-    padding: 1em 2em 1em 1em; }
-  .reveal .addtl-info .caniuse {
-    float: left;
-    margin-top: 1em; }
-    .reveal .addtl-info .caniuse li {
-      padding: 2em;
-      margin: 0 1em;
-      font-size: 0.4em;
-      background: lightgreen;
-      border-radius: 50%;
-      display: inline-block;
-      text-align: center;
-      position: relative; }
-      .reveal .addtl-info .caniuse li:before {
-        font-size: 2em;
-        content: attr(data-v);
-        position: absolute;
-        bottom: -2.25em;
-        left: 0;
-        width: 100%; }
-      .reveal .addtl-info .caniuse li:after {
-        position: absolute;
-        bottom: -1.8em;
-        left: 0;
-        width: 100%; }
-    .reveal .addtl-info .caniuse .chrome:after {
-      content: 'Chrome'; }
-    .reveal .addtl-info .caniuse .ff:after {
-      content: 'Firefox'; }
-    .reveal .addtl-info .caniuse .safari:after {
-      content: 'Safari'; }
-    .reveal .addtl-info .caniuse .ie:after {
-      content: 'IE'; }
+.reveal .live-code-area {
+  padding: 2em; }
+.reveal .img-area {
+  position: relative;
+  width: 50%;
+  float: left; }
+
+.hue-rotate .images {
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto; }
+.hue-rotate img {
+  position: absolute; }
+  .hue-rotate img:first-child {
+    transform: translate(-100px, -100px); }
+  .hue-rotate img:last-child {
+    transform: translate(120px, 120px); }

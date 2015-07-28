@@ -1,79 +1,15 @@
 .reveal {
-  .addtl-info {
-    font-size: .65em;
-    width: 100%;
-    background: rgba(0,0,0,.5);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: .5em;
+  .live-code-area {
+    padding: 2em;
+  }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
+  .img-area {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
 
-    .metadata {
-      float: left;
-      padding: 1em 2em 1em 1em;
-    }
+  .style-box-area {
 
-    .caniuse {
-      float: left;
-      margin-top: 1em;
-
-      li {
-        padding: 2em;
-        margin: 0 1em;
-        font-size: .4em;
-        background: lightgreen;
-        border-radius: 50%;
-        display: inline-block;
-        text-align: center;
-        position: relative;
-
-        &:before {
-          font-size: 2em;
-          content: attr(data-v);
-          position: absolute;
-          bottom: -2.25em;
-          left: 0;
-          width: 100%;
-        }
-
-        &:after {
-          position: absolute;
-          bottom: -1.8em;
-          left: 0;
-          width: 100%;
-        }
-      }
-
-      .chrome {
-        &:after {
-          content: 'Chrome'
-        }
-      }
-
-      .ff {
-        &:after {
-          content: 'Firefox'
-        }
-      }
-
-      .safari {
-        &:after {
-          content: 'Safari'
-        }
-      }
-
-      .ie {
-        &:after {
-          content: 'IE'
-        }
-      }
-    }
   }
 }

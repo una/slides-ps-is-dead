@@ -1,0 +1,21 @@
+.hue-rotate {
+  .images {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  img {
+    position: absolute;
+
+    &:first-child {
+      transform: translate(-100px, -100px)
+    }
+
+    &:last-child {
+      transform: translate(120px, 120px)
+    }
+  }
+}

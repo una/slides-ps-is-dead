@@ -27,9 +27,9 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 600;
-$linkColor: #42affa;
+$linkColor: #FADD2C;
 $linkColorHover: lighten( $linkColor, 15% );
-$selectionBackgroundColor: lighten( $linkColor, 25% );
+$selectionBackgroundColor: hotpink;
 
 $heading1Size: 2.5em;
 $heading2Size: 1.6em;
@@ -51,4 +51,6 @@ section.has-light-background {
 @import 'bottom-bar';
 @import 'heading';
 @import 'code-area';
+// move to folders soon
+@import 'css-filters';
 // ---------------------------------------------
