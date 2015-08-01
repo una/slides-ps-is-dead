@@ -1,0 +1,84 @@
+<style>
+  .before-after-area {
+    position: absolute;
+    top: 0em;
+    right: 0em;
+  }
+
+  .before-after-area img{
+    height: 5em;
+    width: auto;
+  }
+
+  .blossom-original {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .blossom-blender {
+    height: 360px;
+    width: 60%;
+    position: absolute;
+    top: 4px; /*border on flowers*/
+    left: 0;
+    right: 0;
+    margin: 0 auto !important;
+  }
+
+</style>
+
+<div class="heading-area">
+  <h2 class="heading--title">Recreating "Raging Mist":</h2>
+  <h3 class="heading--subtitle">filter, mix-blend-mode, background-blend-mode"</h3>
+</div>
+
+<div class="before-after-area">
+  <img src="../../resources/01_CSS_Filters/before.jpg" alt="" class="before">
+  <img src="../../resources/01_CSS_Filters/after.jpg" alt="" class="after">
+</div>
+
+<div class="live-code-area">
+  <div class="img-area">
+    <img style="width: 60%; margin: 0 auto; display: block;" class="blossom-original part2" src="../../resources/01_CSS_Filters/original.jpg">
+    <div class="blossom-blender"></div>
+  </div>
+
+  <div class="style-box-area">
+  <style class="code-editor" contenteditable>.blossom-original.part2 {
+  filter: sepia(20%) hue-rotate(-20deg) saturate(1.3);
+  -webkit-filter: sepia(20%) hue-rotate(-20deg) saturate(1.3);
+}
+
+.blossom-blender {
+
+}</style>
+  </div>
+
+<aside class="notes">
+  - start with background: yellow; mix: difference;
+  - then play around with blend mode to find soft light
+  - then open chrome tools to find the color picker
+
+  // WAY ONE:
+  background: #C79B74; //(some light tan)
+  mix-blend-mode: soft-light;
+
+  //WAY TWO:
+  background: #FFFBD4;; //(light yellow)
+  mix-blend-mode: multiply;
+</aside>
+
+<div class="addtl-info">
+    <ul class="metadata">
+        <li class="hashtag">#PSisDead</li>
+        <li class="handle">@una 😘</li>
+    </ul>
+    <ul class="caniuse">
+        <li class="chrome" data-v="37"></li>
+        <li class="ff" data-v="37"></li>
+        <li class="ie" data-v="37"></li>
+        <li class="safari" data-v="37"></li>
+    </ul>
+</div>
+

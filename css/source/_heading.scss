@@ -3,6 +3,15 @@
     top: -2em;
     padding: .25em 1.5em 1em;
     line-height: .25;
+    margin-bottom: 1em;
+
+    h2 {
+      color: $accentColor;
+    }
+
+    h3 {
+      font-size: .8em;
+    }
   }
 }
 

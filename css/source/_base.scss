@@ -7,6 +7,10 @@
 
     &[data-center="true"] {
       text-align: center;
+      align-items: center;
+      justify-content: center;
+      // !important to override display: block from framework shifting slides
+      display: flex !important;
     }
   }
 
@@ -33,6 +37,7 @@
   }
 }
 
-.center-push {
-  margin-top: 8em;
+.emoji {
+  // !important to fix font-weight killing emoji in chrome
+  font-weight: 500 !important;
 }

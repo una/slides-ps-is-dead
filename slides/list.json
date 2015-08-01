@@ -1,38 +1,76 @@
 [
   {
-    "filename": "slide-title.html",
+    "filename": "00_Intro/title-slide.html",
     "attr": {
       "data-center": "true"
     }
   },
   {
-    "filename": "hello-berlin.md",
+    "filename": "00_Intro/video.html",
     "attr": {
-      "data-transition": "none",
-      "data-center": "true"
+      "data-background-video": "../resources/video/'Anything You Can Do' from Annie Get Your Gun (1950).mp4"
     }
   },
+  [ {
+      "attr": {
+        "data-background": "../resources/01_CSS_Filters/deviantart.png"
+      }
+    },
+    {
+      "filename": "01_CSS_Filters/basic-filters.md"
+    },
+    {
+      "filename": "01_CSS_Filters/basic-filters--example.md"
+    }
+  ],
   [ {
       "filename": "code-editing.html",
       "attr": {
         "data-transition": "none"
       }
     },
-      {
+    {
       "filename": "code-editing2.html",
       "attr": {
         "data-transition": "none"
       }
     }
   ],
-  "test.md",
-  {
-    "filename": "test.md",
-    "attr": {
-      "data-background": "#ff0000",
-      "data-usage": "true",
-      "data-transition": "slide"
+  [ {
+      "filename": "03_Background_Blend_Modes/filter-set.md",
+      "attr": {
+        "data-center": "true"
+      }
+    },
+    {
+      "filename": "03_Background_Blend_Modes/filter-set-explain.md"
+    },
+    {
+      "filename": "03_Background_Blend_Modes/filter-raging-mist.md"
+    },
+    {
+      "filename": "03_Background_Blend_Modes/filter-raging-mist--example.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "03_Background_Blend_Modes/filter-raging-mist--example2.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "03_Background_Blend_Modes/washout-effect.md",
+      "attr": {
+        "data-center": "true"
+      }
     }
-  },
-  "end.md"
+  ],
+  {
+    "filename": "end.html",
+    "attr": {
+      "data-center": "true"
+    }
+  }
 ]

@@ -272,7 +272,10 @@ body {
   position: relative;
   text-align: left; }
   .reveal section[data-center="true"] {
-    text-align: center; }
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex !important; }
 .reveal pre code {
   font-family: 'Input Mono', monospace; }
 
@@ -291,8 +294,8 @@ body {
   .code-editor:focus {
     outline: 0; }
 
-.center-push {
-  margin-top: 8em; }
+.emoji {
+  font-weight: 500 !important; }
 
 .reveal .addtl-info {
   font-size: 0.65em;
@@ -346,10 +349,13 @@ body {
 .reveal .heading-area {
   top: -2em;
   padding: 0.25em 1.5em 1em;
-  line-height: 0.25; }
+  line-height: 0.25;
+  margin-bottom: 1em; }
+  .reveal .heading-area h2 {
+    color: #FADD2C; }
+  .reveal .heading-area h3 {
+    font-size: 0.8em; }
 
-.reveal .live-code-area {
-  padding: 2em; }
 .reveal .img-area {
   position: relative;
   width: 50%;

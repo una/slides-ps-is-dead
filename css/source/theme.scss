@@ -27,8 +27,9 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 600;
-$linkColor: #FADD2C;
-$linkColorHover: lighten( $linkColor, 15% );
+$accentColor: #FADD2C;
+$linkColor: $accentColor;
+$linkColorHover: lighten( $accentColor, 15% );
 $selectionBackgroundColor: hotpink;
 
 $heading1Size: 2.5em;
