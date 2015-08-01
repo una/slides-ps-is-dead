@@ -291,6 +291,9 @@ body {
   .code-editor:focus {
     outline: 0; }
 
+.center-push {
+  margin-top: 8em; }
+
 .reveal .addtl-info {
   font-size: 0.65em;
   width: 100%;
@@ -341,7 +344,9 @@ body {
       content: 'IE'; }
 
 .reveal .heading-area {
-  height: 4em; }
+  top: -2em;
+  padding: 0.25em 1.5em 1em;
+  line-height: 0.25; }
 
 .reveal .live-code-area {
   padding: 2em; }
@@ -357,8 +362,11 @@ body {
   height: 400px;
   margin: 0 auto; }
 .hue-rotate img {
-  position: absolute; }
+  position: absolute;
+  transition: transform 1s ease-in; }
   .hue-rotate img:first-child {
     transform: translate(-100px, -100px); }
   .hue-rotate img:last-child {
     transform: translate(120px, 120px); }
+.hue-rotate [data-state="overlap"] img:first-child, .hue-rotate [data-state="overlap"] img:last-child {
+  transform: translate(0); }
