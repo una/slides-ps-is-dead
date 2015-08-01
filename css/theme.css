@@ -276,6 +276,8 @@ body {
     align-items: center;
     justify-content: center;
     display: flex !important; }
+    .reveal section[data-center="true"] div {
+      max-width: 80%; }
 .reveal pre code {
   font-family: 'Input Mono', monospace; }
 

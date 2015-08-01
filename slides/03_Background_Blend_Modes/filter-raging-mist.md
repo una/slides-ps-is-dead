@@ -1,1 +1,4 @@
-**Raging Mist**: Raging Mist offers the most faded out look of all these. It fades out images with purple hues and warmer tones to create a sultry vintage effect.
+<div>
+  <ul class="filter-list" style="font-size: 1.4em; list-style: none;">
+  <li><span>Raging Mist:</span> Raging Mist offers the most faded out look of all these. It fades out images with purple hues and warmer tones to create a sultry vintage effect.</li>
+</div>

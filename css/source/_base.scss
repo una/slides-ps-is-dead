@@ -11,6 +11,10 @@
       justify-content: center;
       // !important to override display: block from framework shifting slides
       display: flex !important;
+
+      div {
+        max-width: 80%;
+      }
     }
   }
 

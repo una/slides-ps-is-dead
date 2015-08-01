@@ -36,7 +36,8 @@
       }
     }
   ],
-  [ {
+  [
+    {
       "filename": "03_Background_Blend_Modes/filter-set.md",
       "attr": {
         "data-center": "true"
@@ -46,7 +47,10 @@
       "filename": "03_Background_Blend_Modes/filter-set-explain.md"
     },
     {
-      "filename": "03_Background_Blend_Modes/filter-raging-mist.md"
+      "filename": "03_Background_Blend_Modes/filter-raging-mist.md",
+      "attr": {
+        "data-center": "true"
+      }
     },
     {
       "filename": "03_Background_Blend_Modes/filter-raging-mist--example.html",
@@ -65,8 +69,19 @@
       "attr": {
         "data-center": "true"
       }
+    },
+    {
+      "attr": {
+      "data-background-video": "../resources/video/vintage-effect-demo--noaudio.mp4"
+      }
     }
   ],
+  {
+    "filename": "03_Background_Blend_Modes/filter-raging-mist--example3.html",
+    "attr": {
+      "data-transition": "none"
+    }
+  },
   {
     "filename": "end.html",
     "attr": {
