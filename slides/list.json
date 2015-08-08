@@ -11,22 +11,52 @@
       "data-background-video": "../resources/video/'Anything You Can Do' from Annie Get Your Gun (1950).mp4"
     }
   },
-  {
-    "filename": "00_Intro/tombstone.html"
-  },
-  [ {
+  [
+    "00_Intro/ps-is-clunky.html",
+    "00_Intro/not-accesible.html",
+    "00_Intro/not-responsive.html",
+    "00_Intro/expensive.html",
+    { "filename": "00_Intro/wifi-issues-1.html",
+      "attr" : {
+        "data-transition": "none",
+        "data-full-img": "true"
+      }
+    },
+    { "filename": "00_Intro/wifi-issues-2.html",
+      "attr" : {
+        "data-transition": "none",
+        "data-full-img": "true"
+      }
+    },
+    { "filename": "00_Intro/wifi-issues-3.html",
+      "attr" : {
+        "data-transition": "none",
+        "data-full-img": "true"
+      }
+    },
+    "00_Intro/tombstone.html"
+  ],
+  [
+    "01_CSS_Filters/simple.html",
+    {
+      "filename": "01_CSS_Filters/css-filters.html",
       "attr": {
-        "data-background": "../resources/01_CSS_Filters/deviantart.png"
+        "data-center": "true"
+      }
+    },
+    "01_CSS_Filters/caniuse.html",
+    "01_CSS_Filters/basic-filters.html",
+    "01_CSS_Filters/basic-filters--example.html",
+    "01_CSS_Filters/quick-solutions.html",
+    "01_CSS_Filters/hue-rotate-hover.html"
+  ],
+  [ {
+      "filename": "02_Mix_Blend_Modes/blend-modes.html",
+      "attr": {
+        "data-center": "true"
       }
     },
     {
-      "filename": "01_CSS_Filters/basic-filters.html"
-    },
-    {
-      "filename": "01_CSS_Filters/basic-filters--example.html"
-    }
-  ],
-  [ {
       "filename": "02_Mix_Blend_Modes/blend-modes-all.html",
       "attr": {
         "data-transition": "none"

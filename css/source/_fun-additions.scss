@@ -1,40 +1,25 @@
 .tombstone {
-  $tomb-width: 600px;
-  display: block;
-  width: $tomb-width;
-  height: $tomb-width*1.5;
-  background: #7e7e7e;
-  -webkit-clip-path: polygon(4% 5%, 112% 0%, 76% 85%, 30% 80%);
-          clip-path: polygon(4% 5%, 112% 0%, 76% 85%, 30% 80%);
-  position: relative;
-  transform: traslateY(100%);
+  background: url('../../resources/etc/blank-tombstone.jpg');
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  perspective: 500px;
+  opacity: 0;
 
   .present & {
     animation: rise 2s ease-in forwards;
-  }
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: lightgrey;
-    box-shadow: inset 220px 110px 125px 0px white;
-    display: block;
-    width: 100%;
-    height: 100%;
-    -webkit-clip-path: polygon(14% 10%, 101% -4%, 76% 85%, 30% 80%);
-            clip-path: polygon(14% 10%, 101% -4%, 76% 85%, 30% 80%);
-  }
+    }
 
   &:after {
     content: '#PSisDead';
     position: absolute;
     font-size: 2em;
     text-align: center;
-    top: 2em;
+    top: 2.8em;
+    transform: rotateX(-10deg); //rotate for perspective
     left: 0;
     right: 0;
+    mix-blend-mode: multiply;
     width: 100%;
     font-weight: 600;
     color: rgba(100, 100, 100, .6);
@@ -46,9 +31,11 @@
   from {
     -webkit-transform: translateY(100%);
             transform: translateY(100%);
+      opacity: 0;
   }
   to {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+      opacity: 1;
   }
 }

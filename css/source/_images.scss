@@ -2,6 +2,12 @@
   max-height: 60vh;
 }
 
-.negev {
+.reveal .negev {
   @extend %full-image;
+}
+
+.reveal [data-full-img="true"] {
+  img {
+    max-height: 70vh;
+  }
 }

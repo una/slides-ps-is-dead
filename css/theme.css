@@ -385,6 +385,12 @@ footer {
   width: 50%;
   float: left; }
 
+.reveal .negev {
+  max-height: 60vh; }
+
+.reveal [data-full-img="true"] img {
+  max-height: 70vh; }
+
 .hue-rotate .images {
   position: relative;
   display: block;
@@ -402,36 +408,24 @@ footer {
   transform: translate(0); }
 
 .tombstone {
-  display: block;
-  width: 600px;
-  height: 900px;
-  background: #7e7e7e;
-  -webkit-clip-path: polygon(4% 5%, 112% 0%, 76% 85%, 30% 80%);
-  clip-path: polygon(4% 5%, 112% 0%, 76% 85%, 30% 80%);
-  position: relative;
-  transform: traslateY(100%); }
+  background: url('../../resources/etc/blank-tombstone.jpg');
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  perspective: 500px;
+  opacity: 0; }
   .present .tombstone {
     animation: rise 2s ease-in forwards; }
-  .tombstone:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: lightgrey;
-    box-shadow: inset 220px 110px 125px 0px white;
-    display: block;
-    width: 100%;
-    height: 100%;
-    -webkit-clip-path: polygon(14% 10%, 101% -4%, 76% 85%, 30% 80%);
-    clip-path: polygon(14% 10%, 101% -4%, 76% 85%, 30% 80%); }
   .tombstone:after {
     content: '#PSisDead';
     position: absolute;
     font-size: 2em;
     text-align: center;
-    top: 2em;
+    top: 2.8em;
+    transform: rotateX(-10deg);
     left: 0;
     right: 0;
+    mix-blend-mode: multiply;
     width: 100%;
     font-weight: 600;
     color: rgba(100, 100, 100, 0.6);
@@ -440,12 +434,10 @@ footer {
 @keyframes rise {
   from {
     -webkit-transform: translateY(100%);
-    transform: translateY(100%); }
+    transform: translateY(100%);
+    opacity: 0; }
 
   to {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%); } }
-
-.negev {
-  max-height: 60vh; }
-
+    -webkit-transform: translateY(10%);
+    transform: translateY(10%);
+    opacity: 1; } }
