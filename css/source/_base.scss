@@ -21,10 +21,21 @@
   pre code {
     font-family: 'Input Mono', monospace;
   }
+
+  .double-col {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 4em;
+    column-count: 2;
+    column-gap: 4em;
+  }
+
+  li.highlight {
+    background: $secondaryColor;
+  }
 }
 
 .code-editor {
-  width: 50%;
+  width: 45%;
   display: block;
   font-size: .5em;
   float: right;
@@ -35,6 +46,7 @@
   line-height: 1.25;
   white-space: pre-wrap;
   font-family: 'Input Mono', monospace;
+  margin-right: 5%;
 
   &:focus {
     outline: 0;
@@ -44,4 +56,21 @@
 .emoji {
   // !important to fix font-weight killing emoji in chrome
   font-weight: 500 !important;
+}
+
+footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  line-height: 1.5;
+  font-size: 1.5em;
+  color: white;
+  font-family: $mainFont;
+  list-style: none;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }

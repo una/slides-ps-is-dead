@@ -1,0 +1,7 @@
+%full-image {
+  max-height: 60vh;
+}
+
+.negev {
+  @extend %full-image;
+}

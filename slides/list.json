@@ -11,52 +11,60 @@
       "data-background-video": "../resources/video/'Anything You Can Do' from Annie Get Your Gun (1950).mp4"
     }
   },
+  {
+    "filename": "00_Intro/tombstone.html"
+  },
   [ {
       "attr": {
         "data-background": "../resources/01_CSS_Filters/deviantart.png"
       }
     },
     {
-      "filename": "01_CSS_Filters/basic-filters.md"
+      "filename": "01_CSS_Filters/basic-filters.html"
     },
     {
-      "filename": "01_CSS_Filters/basic-filters--example.md"
+      "filename": "01_CSS_Filters/basic-filters--example.html"
     }
   ],
   [ {
-      "filename": "code-editing.html",
+      "filename": "02_Mix_Blend_Modes/blend-modes-all.html",
       "attr": {
         "data-transition": "none"
       }
     },
     {
-      "filename": "code-editing2.html",
+      "filename": "02_Mix_Blend_Modes/blend-modes-ps.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "02_Mix_Blend_Modes/blend-modes-split.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "02_Mix_Blend_Modes/code-editing.html",
       "attr": {
         "data-transition": "none"
       }
     }
   ],
-  [
-    {
-      "filename": "03_Background_Blend_Modes/filter-set.md",
+  [ {
+      "filename": "03_Background_Blend_Modes/filter-set.html",
       "attr": {
         "data-center": "true"
       }
     },
     {
-      "filename": "03_Background_Blend_Modes/filter-set-explain.md"
+      "filename": "03_Background_Blend_Modes/filter-set-explain.html"
     },
     {
-      "filename": "03_Background_Blend_Modes/filter-raging-mist.md",
-      "attr": {
-        "data-center": "true"
-      }
+      "filename": "03_Background_Blend_Modes/filter-raging-mist.html"
     },
     {
-      "filename": "03_Background_Blend_Modes/filter-raging-mist--example.html",
-      "attr": {
-        "data-transition": "none"
-      }
+      "filename": "03_Background_Blend_Modes/filter-raging-mist--example.html"
     },
     {
       "filename": "03_Background_Blend_Modes/filter-raging-mist--example2.html",
@@ -65,7 +73,7 @@
       }
     },
     {
-      "filename": "03_Background_Blend_Modes/washout-effect.md",
+      "filename": "03_Background_Blend_Modes/washout-effect.html",
       "attr": {
         "data-center": "true"
       }
@@ -77,15 +85,149 @@
     }
   ],
   {
-    "filename": "03_Background_Blend_Modes/filter-raging-mist--example3.html",
-    "attr": {
-      "data-transition": "none"
-    }
-  },
+      "filename": "03_Background_Blend_Modes/filter-raging-mist--example3.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
   {
+      "filename": "03_Background_Blend_Modes/filter-raging-mist--example4.html",
+      "attr": {
+        "data-transition": "none"
+      }
+  },
+  [
+    {
+      "filename": "04_CSS_Gradients/grad-intro.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/vignette-box-shadow.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/vignette-radial-grad.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-none.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-bg-only.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-color-burn.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-multiply.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-darken.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-difference.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-exclusion.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-hard-light.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-hue.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-lighten.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-luminosity.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-saturation.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-color.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-screen.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/negev-soft-light.html",
+        "attr": {
+          "data-transition": "none"
+        }
+      }
+  ],
+  [
+    {
+    "attr": {
+      "data-background": "../resources/conclusion/super-matio-original.jpg"
+      }
+    },
+    {
+    "attr": {
+      "data-background": "../resources/conclusion/Super-Mario-3D-World-15.jpg"
+      }
+    },
+    "performance.md",
+    {
+    "filename": "breaking-the-web.html",
+      "attr": {
+        "data-background": "#fff"
+      }
+    },
+    {
     "filename": "end.html",
     "attr": {
       "data-center": "true"
     }
-  }
+  }]
 ]

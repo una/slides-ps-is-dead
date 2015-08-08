@@ -280,9 +280,16 @@ body {
       max-width: 80%; }
 .reveal pre code {
   font-family: 'Input Mono', monospace; }
+.reveal .double-col {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 4em;
+  column-count: 2;
+  column-gap: 4em; }
+.reveal li.highlight {
+  background: hotpink; }
 
 .code-editor {
-  width: 50%;
+  width: 45%;
   display: block;
   font-size: 0.5em;
   float: right;
@@ -292,17 +299,32 @@ body {
   color: #444;
   line-height: 1.25;
   white-space: pre-wrap;
-  font-family: 'Input Mono', monospace; }
+  font-family: 'Input Mono', monospace;
+  margin-right: 5%; }
   .code-editor:focus {
     outline: 0; }
 
 .emoji {
   font-weight: 500 !important; }
 
+footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  line-height: 1.5;
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  list-style: none; }
+
+.center {
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
+
 .reveal .addtl-info {
   font-size: 0.65em;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -378,3 +400,52 @@ body {
     transform: translate(120px, 120px); }
 .hue-rotate [data-state="overlap"] img:first-child, .hue-rotate [data-state="overlap"] img:last-child {
   transform: translate(0); }
+
+.tombstone {
+  display: block;
+  width: 600px;
+  height: 900px;
+  background: #7e7e7e;
+  -webkit-clip-path: polygon(4% 5%, 112% 0%, 76% 85%, 30% 80%);
+  clip-path: polygon(4% 5%, 112% 0%, 76% 85%, 30% 80%);
+  position: relative;
+  transform: traslateY(100%); }
+  .present .tombstone {
+    animation: rise 2s ease-in forwards; }
+  .tombstone:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    box-shadow: inset 220px 110px 125px 0px white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-clip-path: polygon(14% 10%, 101% -4%, 76% 85%, 30% 80%);
+    clip-path: polygon(14% 10%, 101% -4%, 76% 85%, 30% 80%); }
+  .tombstone:after {
+    content: '#PSisDead';
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    top: 2em;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-weight: 600;
+    color: rgba(100, 100, 100, 0.6);
+    text-shadow: 1px 4px 6px lightgrey, 0 0 0 #000, 1px 4px 6px lightgrey; }
+
+@keyframes rise {
+  from {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%); }
+
+  to {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
+
+.negev {
+  max-height: 60vh; }
+

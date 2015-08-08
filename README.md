@@ -16,6 +16,8 @@
 ### 01 -- CSS Filters
   - Intro to Webkit Filters
   - Overview of all the filters
+  - Safari got some moves, too: Backdrop filters!
+  - Backdrop Filter: http://iamvdo.me/en/blog/advanced-css-filters/?utm_source=codrops
 
 ### 02 -- Mix Blend Modes
   - Intro to Blend Modes
@@ -49,6 +51,11 @@
 
 ### 09 -- Accesible Content (meme example)
 
+### Conclusion
+
+- these are the broken capabilities right now but look where video games started vs. now
+
 ## Further Ideas
 
 - making a meme on the spot that requires clipping (like Martha Stewart riding on things)
+- might have to skip the open type features and such for now
