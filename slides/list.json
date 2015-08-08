@@ -6,6 +6,12 @@
     }
   },
   {
+  "filename": "00_Intro/self.html",
+    "attr": {
+      "data-background": "#fff"
+    }
+  },
+  {
     "filename": "00_Intro/video.html",
     "attr": {
       "data-background-video": "../resources/video/'Anything You Can Do' from Annie Get Your Gun (1950).mp4"
@@ -13,9 +19,21 @@
   },
   [
     "00_Intro/ps-is-clunky.html",
+    { "filename": "00_Intro/nightmare.html",
+      "attr" : {
+        "data-background": "../resources/intro/nightmareonelm.jpg",
+        "data-center": "true"
+      }
+    },
     "00_Intro/not-accesible.html",
     "00_Intro/not-responsive.html",
-    "00_Intro/expensive.html",
+    {
+    "filename": "00_Intro/expensive.html",
+      "attr": {
+        "data-background": "#fff",
+        "data-full-img": "true"
+      }
+    },
     { "filename": "00_Intro/wifi-issues-1.html",
       "attr" : {
         "data-transition": "none",
@@ -79,7 +97,8 @@
       "attr": {
         "data-transition": "none"
       }
-    }
+    },
+    "02_Mix_Blend_Modes/sketch-blending.html"
   ],
   [ {
       "filename": "03_Background_Blend_Modes/filter-set.html",
@@ -248,12 +267,6 @@
       }
     },
     "performance.md",
-    {
-    "filename": "breaking-the-web.html",
-      "attr": {
-        "data-background": "#fff"
-      }
-    },
     {
     "filename": "end.html",
     "attr": {

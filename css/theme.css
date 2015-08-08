@@ -391,6 +391,37 @@ footer {
 .reveal [data-full-img="true"] img {
   max-height: 70vh; }
 
+.reveal img.no-outline {
+  outline: none;
+  background: none;
+  border: none;
+  box-shadow: none; }
+
+.trenitalia-highlight-1, .trenitalia-highlight-2, .ps-loader-highlight {
+  background: #FADD2C;
+  mix-blend-mode: multiply;
+  display: block;
+  position: absolute;
+  opacity: 0.8 !important; }
+
+.trenitalia-highlight-1 {
+  width: 540px;
+  top: 30px;
+  left: 10px;
+  height: 50px; }
+
+.trenitalia-highlight-2 {
+  width: 520px;
+  height: 360px;
+  top: 210px;
+  right: 240px; }
+
+.ps-loader-highlight {
+  width: 470px;
+  height: 140px;
+  top: 290px;
+  left: 390px; }
+
 .hue-rotate .images {
   position: relative;
   display: block;
