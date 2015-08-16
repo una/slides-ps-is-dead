@@ -52,7 +52,8 @@
         "data-full-img": "true"
       }
     },
-    "00_Intro/tombstone.html"
+    "00_Intro/tombstone.html",
+    "00_Intro/focus.html"
   ],
   [
     "01_CSS_Filters/simple.html",
@@ -66,6 +67,7 @@
     "01_CSS_Filters/basic-filters.html",
     "01_CSS_Filters/basic-filters--example.html",
     "01_CSS_Filters/quick-solutions.html",
+    "01_CSS_Filters/quick-solutions--iframe.html",
     "01_CSS_Filters/hue-rotate-hover.html"
   ],
   [ {
@@ -98,7 +100,17 @@
         "data-transition": "none"
       }
     },
-    "02_Mix_Blend_Modes/sketch-blending.html"
+    "02_Mix_Blend_Modes/sketch-blending-0.html",
+    {
+      "attr": {
+        "data-background-video": "../resources/blend-modes/negev-ex.mov"
+      }
+    },
+    {
+      "attr": {
+        "data-background-video": "../resources/blend-modes/florence-sketch.mov"
+      }
+    }
   ],
   [ {
       "filename": "03_Background_Blend_Modes/filter-set.html",
@@ -145,6 +157,7 @@
         "data-transition": "none"
       }
   },
+  "03_Background_Blend_Modes/multiple.html",
   [
     {
       "filename": "04_CSS_Gradients/grad-intro.html",
@@ -152,6 +165,12 @@
           "data-transition": "none"
         }
       },
+    "04_CSS_Gradients/grad-basics-direction.html",
+    "04_CSS_Gradients/grad-basics-degree.html",
+    "04_CSS_Gradients/grad-basics-degree-rotate-fun.html",
+    "04_CSS_Gradients/grad-basics-repeat.html",
+    "04_CSS_Gradients/grad-basics-radial.html",
+    "04_CSS_Gradients/grad-basics-conical.html",
     {
       "filename": "04_CSS_Gradients/vignette-box-shadow.html",
         "attr": {
@@ -257,6 +276,12 @@
   ],
   [
     {
+    "filename": "Conclusion/just-begining.html",
+      "attr": {
+        "data-center": "true"
+      }
+    },
+    {
     "attr": {
       "data-background": "../resources/conclusion/super-matio-original.jpg"
       }
@@ -266,9 +291,14 @@
       "data-background": "../resources/conclusion/Super-Mario-3D-World-15.jpg"
       }
     },
-    "performance.md",
     {
-    "filename": "end.html",
+    "filename": "Conclusion/arttheweb.html",
+      "attr": {
+        "data-center": "true"
+      }
+    },
+    {
+    "filename": "Conclusion/end.html",
     "attr": {
       "data-center": "true"
     }

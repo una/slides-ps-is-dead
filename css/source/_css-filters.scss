@@ -4,11 +4,12 @@
     display: block;
     width: 400px;
     height: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   img {
     position: absolute;
+    width: 400px;
     transition: transform 1s ease-in;
 
     &:first-child {
@@ -21,9 +22,12 @@
   }
 
   & [data-state="overlap"] img {
-    &:first-child,
+    &:first-child {
+      transform: translate(-20px, -20px)
+    }
+
     &:last-child {
-      transform: translate(0);
+      transform: translate(20px, 20px)
     }
   }
 }

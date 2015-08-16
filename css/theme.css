@@ -384,6 +384,8 @@ footer {
   position: relative;
   width: 50%;
   float: left; }
+.reveal .code-editor {
+  margin: 0 1em; }
 
 .reveal .negev {
   max-height: 60vh; }
@@ -427,16 +429,19 @@ footer {
   display: block;
   width: 400px;
   height: 400px;
-  margin: 0 auto; }
+  margin: 20px auto; }
 .hue-rotate img {
   position: absolute;
+  width: 400px;
   transition: transform 1s ease-in; }
   .hue-rotate img:first-child {
     transform: translate(-100px, -100px); }
   .hue-rotate img:last-child {
     transform: translate(120px, 120px); }
-.hue-rotate [data-state="overlap"] img:first-child, .hue-rotate [data-state="overlap"] img:last-child {
-  transform: translate(0); }
+.hue-rotate [data-state="overlap"] img:first-child {
+  transform: translate(-20px, -20px); }
+.hue-rotate [data-state="overlap"] img:last-child {
+  transform: translate(20px, 20px); }
 
 .tombstone {
   background: url('../../resources/etc/blank-tombstone.jpg');
