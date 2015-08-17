@@ -12,6 +12,9 @@
 
   .instagram {
     .img-area {
+      width: 60%;
+      margin-right: 0;
+
       div {
         width: 45%;
         margin: 0 2.5%;
@@ -23,14 +26,19 @@
       }
     }
 
+    .code-editor {
+      width: 38%;
+      margin-left: 0;
+    }
+
     .insta-orig {
       background-image: url('../../resources/instagram/00_original.JPG');
       background-size: cover;
       display: block;
       width: 95%;
-      height: 275px;
-      margin: 15px 0 1.3em;
-      border: 5px solid white;
+      height: 330px;
+      margin: 15px 0 1.2em;
+      border: 4px solid white;
       position: relative;
 
       &:after {
