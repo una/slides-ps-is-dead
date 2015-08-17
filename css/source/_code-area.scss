@@ -9,4 +9,35 @@
   .code-editor {
     margin: 0 1em;
   }
+
+  .instagram {
+    .img-area {
+      div {
+        width: 45%;
+        margin: 0 2.5%;
+        float: left;
+      }
+
+      .caption {
+        text-align: center;
+      }
+    }
+
+    .insta-orig {
+      background-image: url('../../resources/instagram/00_original.JPG');
+      background-size: cover;
+      display: block;
+      width: 95%;
+      height: 275px;
+      margin: 15px 0 1.3em;
+      border: 5px solid white;
+      position: relative;
+
+      &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
 }

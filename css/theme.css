@@ -386,11 +386,30 @@ footer {
   float: left; }
 .reveal .code-editor {
   margin: 0 1em; }
+.reveal .instagram .img-area div {
+  width: 45%;
+  margin: 0 2.5%;
+  float: left; }
+.reveal .instagram .img-area .caption {
+  text-align: center; }
+.reveal .instagram .insta-orig {
+  background-image: url('../../resources/instagram/00_original.JPG');
+  background-size: cover;
+  display: block;
+  width: 95%;
+  height: 275px;
+  margin: 15px 0 1.3em;
+  border: 5px solid white;
+  position: relative; }
+  .reveal .instagram .insta-orig:after {
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 .reveal .negev {
   max-height: 60vh; }
 
-.reveal [data-full-img="true"] img {
+.reveal img {
   max-height: 70vh; }
 
 .reveal img.no-outline {
