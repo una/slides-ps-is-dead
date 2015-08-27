@@ -224,7 +224,12 @@
             "data-transition": "none"
           }
         },
-    "04_CSS_Gradients/grad-basics-conical.html",
+      {
+      "filename": "04_CSS_Gradients/grad-basics-conical.html",
+      "attr": {
+          "data-transition": "none"
+        }
+      },
     {
       "filename": "04_CSS_Gradients/vignette-box-shadow.html",
         "attr": {
