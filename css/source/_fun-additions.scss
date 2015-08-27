@@ -39,3 +39,11 @@
       opacity: 1;
   }
 }
+
+.grad-border {
+  border: 10px solid transparent !important;
+  // -moz-border-image: -moz-linear-gradient(top right, #FC913A 0%, #FF4E50 100%);
+  // -webkit-border-image: -webkit-linear-gradient(top right, #FC913A 0%, #FF4E50 100%);
+  border-image: linear-gradient(to bottom left, #FC913A 0%, #FF4E50 100%) !important;
+  border-image-slice: 1 !important;
+}

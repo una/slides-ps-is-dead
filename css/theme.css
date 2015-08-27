@@ -288,7 +288,7 @@ body {
 .reveal li.highlight {
   background: hotpink; }
 
-.code-editor {
+.code-editor, .code-editor--full {
   width: 45%;
   display: block;
   font-size: 0.5em;
@@ -301,8 +301,13 @@ body {
   white-space: pre-wrap;
   font-family: 'Input Mono', monospace;
   margin-right: 5%; }
-  .code-editor:focus {
+  .code-editor:focus, .code-editor--full:focus {
     outline: 0; }
+
+.code-editor--full {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8em; }
 
 .emoji {
   font-weight: 500 !important; }
@@ -386,6 +391,9 @@ footer {
   float: left; }
 .reveal .code-editor {
   margin: 0 1em; }
+.reveal .code-area--full {
+  width: 80%;
+  margin: 2em auto; }
 .reveal .instagram .img-area {
   width: 60%;
   margin-right: 0; }
@@ -502,3 +510,8 @@ footer {
     -webkit-transform: translateY(10%);
     transform: translateY(10%);
     opacity: 1; } }
+
+.grad-border {
+  border: 10px solid transparent !important;
+  border-image: linear-gradient(to bottom left, #FC913A 0%, #FF4E50 100%) !important;
+  border-image-slice: 1 !important; }

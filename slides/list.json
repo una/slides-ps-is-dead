@@ -111,6 +111,21 @@
       "attr": {
         "data-background-video": "../resources/blend-modes/florence-sketch.mov"
       }
+    },
+    {
+      "attr": {
+        "data-background": "../resources/in-the-wild/frontendlondon.png"
+      }
+    },
+    {
+      "attr": {
+        "data-background": "../resources/in-the-wild/vox.png"
+      }
+    },
+    {
+      "attr": {
+        "data-background": "../resources/in-the-wild/netawards.png"
+      }
     }
   ],
   [ {
@@ -161,13 +176,54 @@
   "03_Background_Blend_Modes/multiple.html",
   [
     "04_CSS_Gradients/grad-intro.html",
-    "04_CSS_Gradients/grad-basics-direction.html",
-    "04_CSS_Gradients/grad-basics-color-stop.html",
-    "04_CSS_Gradients/grad-basics-degree.html",
-    "04_CSS_Gradients/grad-basics-degree-rotate-fun.html",
-    "04_CSS_Gradients/grad-basics-repeat.html",
-    "04_CSS_Gradients/grad-basics-radial.html",
-    "04_CSS_Gradients/grad-basics-stripes.html",
+    {
+      "filename": "04_CSS_Gradients/grad-linear.html",
+      "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/grad-basics-direction.html",
+      "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/grad-basics-degree.html",
+      "attr": {
+          "data-transition": "none"
+        }
+      },
+    {
+      "filename": "04_CSS_Gradients/grad-basics-stops.html",
+      "attr": {
+          "data-transition": "none"
+        }
+      },
+      {
+        "filename": "04_CSS_Gradients/grad-basics-repeat.html",
+        "attr": {
+            "data-transition": "none"
+          }
+        },
+        {
+          "filename": "04_CSS_Gradients/grad-basics-repeat.html",
+          "attr": {
+              "data-transition": "none"
+            }
+          },
+        {
+        "filename": "04_CSS_Gradients/grad-basics-radial.html",
+        "attr": {
+            "data-transition": "none"
+          }
+        },
+        {
+        "filename": "04_CSS_Gradients/grad-basics-radial-stripes.html",
+        "attr": {
+            "data-transition": "none"
+          }
+        },
     "04_CSS_Gradients/grad-basics-conical.html",
     {
       "filename": "04_CSS_Gradients/vignette-box-shadow.html",
@@ -282,6 +338,8 @@
     },
     "05_Instagram/reyes.html",
     "05_Instagram/aden.html",
+    "05_Instagram/inkwell.html",
+    "05_Instagram/lofi.html",
     "05_Instagram/perpetua.html",
     "05_Instagram/amaro.html",
     "05_Instagram/mayfair.html",
@@ -289,9 +347,7 @@
     "05_Instagram/hudson.html",
     "05_Instagram/xpro2.html",
     "05_Instagram/willow.html",
-    "05_Instagram/lofi.html",
     "05_Instagram/earlybird.html",
-    "05_Instagram/inkwell.html",
     "05_Instagram/toaster.html",
     "05_Instagram/walden.html"
   ],
