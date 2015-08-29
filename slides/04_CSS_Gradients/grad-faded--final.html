@@ -1,5 +1,5 @@
 <style>
-  .gradientize-me {
+  .gradientize-final {
     height: 360px;
     width: 60%;
     display: block;
@@ -23,19 +23,22 @@
 
 <div class="live-code-area">
   <div class="img-area">
-    <div class="gradientize-me"></div>
+    <div class="gradientize-final"></div>
   </div>
 
   <div class="style-box-area">
-  <style class="code-editor" contenteditable>.gradientize-me {
-  background: white
+  <style class="code-editor" contenteditable>.gradientize-final {
+  background:
+    radial-gradient(at top, #FFD2AC, transparent),
+    linear-gradient(140deg, #E53A1B -10%, transparent 60%),
+    linear-gradient(-150deg, #75C7DD -10%, transparent 60%),
+    radial-gradient(at bottom, rgba(36, 2, 123, 0.61), transparent),
+    linear-gradient(to right, #d83977, #204DC2),
+    white;
+  ;
 }</style>
   </div>
 
 <aside class="notes">
-background:
-  linear-gradient(orange, transparent),
-  linear-gradient(to right, magenta, transparent),
-  linear-gradient(45deg, blue, transparent)
-;
+
 </aside>
