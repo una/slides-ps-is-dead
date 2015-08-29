@@ -71,12 +71,15 @@
     "01_CSS_Filters/quick-solutions--iframe.html",
     "01_CSS_Filters/hue-rotate-hover.html"
   ],
-  [ {
+  [
+    {
       "filename": "02_Mix_Blend_Modes/blend-modes.html",
       "attr": {
         "data-center": "true"
       }
     },
+    "02_Mix_Blend_Modes/caniuse1.html",
+    "02_Mix_Blend_Modes/caniuse2.html",
     {
       "filename": "02_Mix_Blend_Modes/blend-modes-all.html",
       "attr": {
