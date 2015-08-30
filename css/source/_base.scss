@@ -81,3 +81,25 @@ footer {
   display: block;
   margin: 0 auto;
 }
+
+button {
+  transition: .5s;
+  font-family: $mainFont;
+  font-size: .5em;
+  color: $accentColor;
+  border: 2px solid $accentColor;
+  outline: 0;
+  padding: .5em 1em;
+  background: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $accentColor;
+    color: $backgroundColor;
+  }
+}
+
+.btn--overlap {
+  margin: 1.25em 2.25em;
+}

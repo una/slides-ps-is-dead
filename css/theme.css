@@ -327,6 +327,24 @@ footer {
   display: block;
   margin: 0 auto; }
 
+button {
+  transition: 0.5s;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 0.5em;
+  color: #FADD2C;
+  border: 2px solid #FADD2C;
+  outline: 0;
+  padding: 0.5em 1em;
+  background: none;
+  text-transform: uppercase;
+  cursor: pointer; }
+  button:hover {
+    background-color: #FADD2C;
+    color: #222; }
+
+.btn--overlap {
+  margin: 1.25em 2.25em; }
+
 .reveal .addtl-info {
   font-size: 0.65em;
   width: 100%;
