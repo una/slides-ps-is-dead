@@ -391,6 +391,18 @@
       }
     },
     {
+      "attr": {
+        "data-background": "../resources/conclusion/berlin-page.png"
+      }
+    },
+    {
+      "filename": "Conclusion/travel-site.html",
+      "attr": {
+        "data-background": "../resources/conclusion/travels.png",
+        "data-center": "true"
+      }
+    },
+    {
     "filename": "Conclusion/end.html",
     "attr": {
       "data-center": "true"
