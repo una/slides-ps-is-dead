@@ -17,16 +17,18 @@
       "data-background-video": "../resources/video/'Anything You Can Do' from Annie Get Your Gun (1950).mp4"
     }
   },
-  [
     "00_Intro/ps-is-clunky.html",
     { "filename": "00_Intro/nightmare.html",
       "attr" : {
-        "data-background": "../resources/intro/nightmareonelm.jpg",
         "data-center": "true"
       }
     },
     "00_Intro/not-accesible.html",
-    "00_Intro/not-responsive.html",
+    { "filename": "00_Intro/not-responsive.html",
+      "attr" : {
+        "data-center": "true"
+      }
+    },
     {
     "filename": "00_Intro/expensive.html",
       "attr": {
@@ -52,10 +54,18 @@
         "data-full-img": "true"
       }
     },
+    { "filename": "00_Intro/nightmare.html",
+      "attr" : {
+        "data-center": "true"
+      }
+    },
     "00_Intro/tombstone.html",
-    "00_Intro/focus.html",
-    "00_Intro/prefixing.html"
-  ],
+    { "filename": "00_Intro/focus.html",
+      "attr" : {
+        "data-center": "true"
+      }
+    },
+    "00_Intro/prefixing.html",
   [
     "01_CSS_Filters/simple.html",
     {
@@ -176,7 +186,6 @@
         "data-transition": "none"
       }
   },
-  "03_Background_Blend_Modes/multiple.html",
   [
     "04_CSS_Gradients/grad-intro.html",
     {
@@ -224,7 +233,8 @@
       {
       "filename": "04_CSS_Gradients/grad-basics-conical.html",
       "attr": {
-          "data-transition": "none"
+          "data-background-video": "../resources/gradients/conic-grads.mov",
+          "data-center": "true"
         }
       },
     {
@@ -354,18 +364,7 @@
     },
     "05_Instagram/reyes.html",
     "05_Instagram/aden.html",
-    "05_Instagram/inkwell.html",
-    "05_Instagram/lofi.html",
-    "05_Instagram/perpetua.html",
-    "05_Instagram/amaro.html",
-    "05_Instagram/mayfair.html",
-    "05_Instagram/rise.html",
-    "05_Instagram/hudson.html",
-    "05_Instagram/xpro2.html",
-    "05_Instagram/willow.html",
-    "05_Instagram/earlybird.html",
-    "05_Instagram/toaster.html",
-    "05_Instagram/walden.html"
+    "05_Instagram/inkwell.html"
   ],
   [
     {

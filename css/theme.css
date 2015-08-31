@@ -288,27 +288,6 @@ body {
 .reveal li.highlight {
   background: hotpink; }
 
-.code-editor, .code-editor--full {
-  width: 45%;
-  display: block;
-  font-size: 0.5em;
-  float: right;
-  outline: 1px solid dimgray;
-  text-align: left;
-  background: #FFF;
-  color: #444;
-  line-height: 1.25;
-  white-space: pre-wrap;
-  font-family: 'Input Mono', monospace;
-  margin-right: 5%; }
-  .code-editor:focus, .code-editor--full:focus {
-    outline: 0; }
-
-.code-editor--full {
-  width: 100%;
-  margin: 0 auto;
-  font-size: 0.8em; }
-
 .emoji {
   font-weight: 500 !important; }
 
@@ -403,26 +382,47 @@ button {
   .reveal .heading-area h3 {
     font-size: 0.8em; }
 
+.code-editor, .code-editor--full {
+  width: 49%;
+  display: block;
+  font-size: 0.6em;
+  float: right;
+  outline: 1px solid dimgray;
+  text-align: left;
+  background: #FFF;
+  color: #444;
+  line-height: 1.25;
+  white-space: pre-wrap;
+  font-family: 'Input Mono', monospace;
+  margin-right: 5%; }
+  .code-editor:focus, .code-editor--full:focus {
+    outline: 0; }
+
+.code-editor--full {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8em; }
+
 .reveal .img-area {
   position: relative;
-  width: 50%;
+  width: 45%;
   float: left; }
 .reveal .code-editor {
-  margin: 0 1em; }
+  margin-right: 2em; }
 .reveal .code-area--full {
   width: 80%;
   margin: 2em auto; }
 .reveal .instagram .img-area {
   width: 60%;
-  margin-right: 0; }
+  margin-right: -4em; }
   .reveal .instagram .img-area div {
     width: 45%;
-    margin: 0 2.5%;
+    margin-left: 0.2em;
     float: left; }
   .reveal .instagram .img-area .caption {
     text-align: center; }
 .reveal .instagram .code-editor {
-  width: 38%;
+  width: 40%;
   margin-left: 0; }
 .reveal .instagram .insta-orig {
   background-image: url('../../resources/instagram/00_original.JPG');

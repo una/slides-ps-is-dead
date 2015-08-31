@@ -1,13 +1,39 @@
+.code-editor,
+.code-editor--full {
+  width: 49%;
+  display: block;
+  font-size: .6em;
+  float: right;
+  outline: 1px solid dimgray;
+  text-align: left;
+  background: #FFF;
+  color: #444;
+  line-height: 1.25;
+  white-space: pre-wrap;
+  font-family: 'Input Mono', monospace;
+  margin-right: 5%;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.code-editor--full {
+  width: 100%;
+  margin: 0 auto;
+  font-size: .8em;
+}
+
 .reveal {
 
   .img-area {
     position: relative;
-    width: 50%;
+    width: 45%;
     float: left;
   }
 
   .code-editor {
-    margin: 0 1em;
+    margin-right: 2em;
   }
 
 
@@ -19,11 +45,11 @@
   .instagram {
     .img-area {
       width: 60%;
-      margin-right: 0;
+      margin-right: -4em;
 
       div {
         width: 45%;
-        margin: 0 2.5%;
+        margin-left: .2em;
         float: left;
       }
 
@@ -33,7 +59,7 @@
     }
 
     .code-editor {
-      width: 38%;
+      width: 40%;
       margin-left: 0;
     }
 

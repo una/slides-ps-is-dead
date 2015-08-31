@@ -34,32 +34,6 @@
   }
 }
 
-.code-editor,
-.code-editor--full {
-  width: 45%;
-  display: block;
-  font-size: .5em;
-  float: right;
-  outline: 1px solid dimgray;
-  text-align: left;
-  background: #FFF;
-  color: #444;
-  line-height: 1.25;
-  white-space: pre-wrap;
-  font-family: 'Input Mono', monospace;
-  margin-right: 5%;
-
-  &:focus {
-    outline: 0;
-  }
-}
-
-.code-editor--full {
-  width: 100%;
-  margin: 0 auto;
-  font-size: .8em;
-}
-
 .emoji {
   // !important to fix font-weight killing emoji in chrome
   font-weight: 500 !important;
