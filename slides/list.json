@@ -17,12 +17,6 @@
       "data-background-video": "../resources/video/'Anything You Can Do' from Annie Get Your Gun (1950).mp4"
     }
   },
-    "00_Intro/ps-is-clunky.html",
-    { "filename": "00_Intro/nightmare.html",
-      "attr" : {
-        "data-center": "true"
-      }
-    },
     "00_Intro/not-accesible.html",
     { "filename": "00_Intro/not-responsive.html",
       "attr" : {
@@ -52,11 +46,6 @@
       "attr" : {
         "data-transition": "none",
         "data-full-img": "true"
-      }
-    },
-    { "filename": "00_Intro/nightmare.html",
-      "attr" : {
-        "data-center": "true"
       }
     },
     "00_Intro/tombstone.html",
@@ -235,18 +224,6 @@
       "attr": {
           "data-background-video": "../resources/gradients/conic-grads.mov",
           "data-center": "true"
-        }
-      },
-    {
-      "filename": "04_CSS_Gradients/vignette-box-shadow.html",
-        "attr": {
-          "data-transition": "none"
-        }
-      },
-    {
-      "filename": "04_CSS_Gradients/vignette-radial-grad.html",
-        "attr": {
-          "data-transition": "none"
         }
       },
     {
