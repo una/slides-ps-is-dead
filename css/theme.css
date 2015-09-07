@@ -543,6 +543,11 @@ body {
   -webkit-column-gap: 4em;
   column-count: 2;
   column-gap: 4em; }
+.reveal .triple-col {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 3em;
+  column-count: 3;
+  column-gap: 4em; }
 .reveal li.highlight {
   background: hotpink; }
 

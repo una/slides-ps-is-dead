@@ -29,6 +29,13 @@
     column-gap: 4em;
   }
 
+  .triple-col {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 3em;
+    column-count: 3;
+    column-gap: 4em;
+  }
+
   li.highlight {
     background: $secondaryColor;
   }

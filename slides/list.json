@@ -18,6 +18,11 @@
     }
   },
     "00_Intro/not-accesible.html",
+    { "filename": "00_Intro/31-countries-here.html",
+      "attr" : {
+        "data-center": "true"
+      }
+    },
     { "filename": "00_Intro/not-responsive.html",
       "attr" : {
         "data-center": "true"

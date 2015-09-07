@@ -5,12 +5,16 @@
 </div>
 
 <div class="live-code-area">
-  <div class="img-area" style="background-color: #452752; height: 400px;">
+  <div class="img-area bg-box" height: 400px;">
     <img style="width: 90%; margin: 50px auto; display: block; outline: 0; box-shadow: none" class="conf-travel-guide" src="../../resources/blend-modes/conf-travel-guide.png">
   </div>
 
   <div class="style-box-area">
-  <style class="code-editor" contenteditable>.conf-travel-guide {
+  <style class="code-editor" contenteditable>.bg-box {
+  background-color: #b6d;
+}
+
+.conf-travel-guide {
 
 }</style>
   </div>
@@ -18,4 +22,8 @@
 <aside class="notes">
   -webkit-filter: invert(1) contrast(1.1);
   mix-blend-mode: screen;
+  * first show screen with invert
+  * then show multiply without invert
+  * then show changing bg color of bg div
+  * then show hue-rotate to change color of accents
 </aside>
