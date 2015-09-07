@@ -337,7 +337,12 @@
         }
   ],
   [
-    "05_Instagram/insagram-filters.html",
+    {
+      "filename":"05_Instagram/insagram-filters.html",
+      "attr": {
+          "data-center": "true"
+        }
+    },
     {
       "filename":"05_Instagram/original.html",
       "attr": {
