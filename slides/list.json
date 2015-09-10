@@ -133,6 +133,11 @@
       "attr": {
         "data-background": "../resources/in-the-wild/netawards.png"
       }
+    },
+    {
+      "attr": {
+        "data-background-video": "../resources/in-the-wild/xoxco.mov"
+      }
     }
   ],
   [ {
@@ -324,17 +329,22 @@
     "04_CSS_Gradients/grad-faded-intro.html",
     "04_CSS_Gradients/grad-marked.html",
     {
-      "filename": "04_CSS_Gradients/grad-faded-bg.html",
-      "attr": {
+    "filename": "04_CSS_Gradients/grad-faded-bg.html",
+    "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+    "filename": "04_CSS_Gradients/grad-faded--final.html",
+    "attr": {
           "data-transition": "none"
         }
       },
     {
-      "filename": "04_CSS_Gradients/grad-faded--final.html",
       "attr": {
-            "data-transition": "none"
-          }
-        }
+        "data-background-video": "../resources/gradients/usage-together.mov"
+      }
+    }
   ],
   [
     {
