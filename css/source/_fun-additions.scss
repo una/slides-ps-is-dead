@@ -47,3 +47,18 @@
   border-image: linear-gradient(to bottom left, #FC913A 0%, #FF4E50 100%) !important;
   border-image-slice: 1 !important;
 }
+
+@keyframes rotater {
+  from {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+}
+
+.hello-coaster:hover {
+  animation: rotater 1s infinite cubic-bezier(.62,-1.07,.35,1.92) alternate;
+}

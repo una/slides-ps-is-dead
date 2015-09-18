@@ -796,3 +796,15 @@ button {
   border: 10px solid transparent !important;
   border-image: linear-gradient(to bottom left, #FC913A 0%, #FF4E50 100%) !important;
   border-image-slice: 1 !important; }
+
+@keyframes rotater {
+  from {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  to {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg); } }
+
+.hello-coaster:hover {
+  animation: rotater 1s infinite cubic-bezier(0.62, -1.07, 0.35, 1.92) alternate; }
