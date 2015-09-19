@@ -99,7 +99,8 @@
     {
       "filename": "02_Mix_Blend_Modes/blend-modes-split.html",
       "attr": {
-        "data-transition": "none"
+        "data-transition": "none",
+        "data-center": "true"
       }
     },
     {
