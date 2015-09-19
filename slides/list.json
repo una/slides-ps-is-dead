@@ -104,7 +104,31 @@
       }
     },
     {
-      "filename": "02_Mix_Blend_Modes/code-editing.html",
+      "filename": "02_Mix_Blend_Modes/code-editing--darken.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "02_Mix_Blend_Modes/code-editing--lighten.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "02_Mix_Blend_Modes/code-editing--contrast.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "02_Mix_Blend_Modes/code-editing--comparative.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "02_Mix_Blend_Modes/code-editing--composite.html",
       "attr": {
         "data-transition": "none"
       }

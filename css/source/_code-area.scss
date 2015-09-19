@@ -1,8 +1,8 @@
 .code-editor,
 .code-editor--full {
-  width: 49%;
+  width: 90%;
   display: block;
-  font-size: .6em;
+  font-size: .7em;
   float: right;
   outline: 1px solid dimgray;
   text-align: left;
@@ -16,6 +16,11 @@
   &:focus {
     outline: 0;
   }
+}
+
+.style-box-area {
+  width: 50%;
+  float: right;
 }
 
 .code-editor--full {
@@ -59,8 +64,7 @@
     }
 
     .code-editor {
-      width: 40%;
-      margin-left: 0;
+      width: 100%;
     }
 
     .insta-orig {
