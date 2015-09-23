@@ -12,27 +12,25 @@
     margin: 20px auto;
   }
 
-  img {
+  .images div {
     position: absolute;
     width: 400px;
-    transition: transform 1s ease-in;
+    transition: transform 1s ease-in-out;
 
-    &:first-child {
+    &.background {
       transform: translate(-100px, -100px)
     }
 
-    &:last-child {
+    &.active {
       transform: translate(120px, 120px)
     }
   }
 
-  & [data-state="overlap"] img {
-    &:first-child {
-      transform: translate(-20px, -20px)
+  & [data-state="overlap"] .background {
+      transform: translate(-20px, -20px) !important;
     }
 
-    &:last-child {
-      transform: translate(20px, 20px)
-    }
+  & [data-state="overlap"] .active {
+      transform: translate(20px, 20px) !important;
   }
 }

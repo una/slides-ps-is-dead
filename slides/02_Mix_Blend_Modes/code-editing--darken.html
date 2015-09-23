@@ -1,17 +1,22 @@
+
 <div class="heading-area">
   <h2 class="heading--title">Darken Blend Modes:</h2>
 </div>
 
 <div class="live-code-area edit--darken" style="margin-top: 1em">
   <div class="img-area">
-    <div class="images blend-example">
-      <img class="fragment" src="../../resources/filters/v-ice.jpg" alt="">
-      <img class="fragment" src="../../resources/filters/v-icecream.jpg" alt="">
+    <div class="images blend--darken">
+      <div class="background fragment">
+        <img class="fragment" src="../../resources/filters/v-ice.jpg" alt="">
+      </div>
+      <div class="active fragment">
+        <img src="../../resources/filters/v-icecream.jpg" alt="">
+      </div>
     </div>
   </div>
 
   <div class="style-box-area">
-  <style class="code-editor" contenteditable>.blend-example img {
+  <style class="code-editor" contenteditable>.blend--darken .active {
 // mix-blend-mode: multiply;
 // mix-blend-mode: darken;
 // mix-blend-mode: color-burn;

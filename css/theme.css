@@ -750,18 +750,18 @@ button {
   width: 400px;
   height: 400px;
   margin: 20px auto; }
-.hue-rotate img, .edit--darken img, .edit--lighten img, .edit--comparative img, .edit--contrast img, .edit--composite img {
+.hue-rotate .images div, .edit--darken .images div, .edit--lighten .images div, .edit--comparative .images div, .edit--contrast .images div, .edit--composite .images div {
   position: absolute;
   width: 400px;
-  transition: transform 1s ease-in; }
-  .hue-rotate img:first-child, .edit--darken img:first-child, .edit--lighten img:first-child, .edit--comparative img:first-child, .edit--contrast img:first-child, .edit--composite img:first-child {
+  transition: transform 1s ease-in-out; }
+  .hue-rotate .images div.background, .edit--darken .images div.background, .edit--lighten .images div.background, .edit--comparative .images div.background, .edit--contrast .images div.background, .edit--composite .images div.background {
     transform: translate(-100px, -100px); }
-  .hue-rotate img:last-child, .edit--darken img:last-child, .edit--lighten img:last-child, .edit--comparative img:last-child, .edit--contrast img:last-child, .edit--composite img:last-child {
+  .hue-rotate .images div.active, .edit--darken .images div.active, .edit--lighten .images div.active, .edit--comparative .images div.active, .edit--contrast .images div.active, .edit--composite .images div.active {
     transform: translate(120px, 120px); }
-.hue-rotate [data-state="overlap"] img:first-child, .edit--darken [data-state="overlap"] img:first-child, .edit--lighten [data-state="overlap"] img:first-child, .edit--comparative [data-state="overlap"] img:first-child, .edit--contrast [data-state="overlap"] img:first-child, .edit--composite [data-state="overlap"] img:first-child {
-  transform: translate(-20px, -20px); }
-.hue-rotate [data-state="overlap"] img:last-child, .edit--darken [data-state="overlap"] img:last-child, .edit--lighten [data-state="overlap"] img:last-child, .edit--comparative [data-state="overlap"] img:last-child, .edit--contrast [data-state="overlap"] img:last-child, .edit--composite [data-state="overlap"] img:last-child {
-  transform: translate(20px, 20px); }
+.hue-rotate [data-state="overlap"] .background, .edit--darken [data-state="overlap"] .background, .edit--lighten [data-state="overlap"] .background, .edit--comparative [data-state="overlap"] .background, .edit--contrast [data-state="overlap"] .background, .edit--composite [data-state="overlap"] .background {
+  transform: translate(-20px, -20px) !important; }
+.hue-rotate [data-state="overlap"] .active, .edit--darken [data-state="overlap"] .active, .edit--lighten [data-state="overlap"] .active, .edit--comparative [data-state="overlap"] .active, .edit--contrast [data-state="overlap"] .active, .edit--composite [data-state="overlap"] .active {
+  transform: translate(20px, 20px) !important; }
 
 .tombstone {
   background: url('../../resources/etc/blank-tombstone.jpg');
@@ -834,3 +834,13 @@ button {
   bottom: 20%;
   z-index: 3;
   left: 40%; }
+
+.active:after {
+  content: 'Active Layer';
+  position: absolute;
+  bottom: -1em;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: block;
+  text-align: center; }

@@ -17,6 +17,11 @@
       "data-background-video": "../resources/video/'Anything You Can Do' from Annie Get Your Gun (1950).mp4"
     }
   },
+   {
+     "attr": {
+       "data-background": "../resources/intro/tiramisu.jpg"
+     }
+   },
     "00_Intro/not-accesible.html",
     { "filename": "00_Intro/31-countries-here.html",
       "attr" : {
@@ -33,6 +38,11 @@
       "attr": {
         "data-background": "#fff",
         "data-full-img": "true"
+      }
+    },
+    {
+      "attr": {
+        "data-background": "../resources/intro/logos.png"
       }
     },
     { "filename": "00_Intro/wifi-issues-1.html",
@@ -84,6 +94,7 @@
     },
     "02_Mix_Blend_Modes/caniuse1.html",
     "02_Mix_Blend_Modes/caniuse2.html",
+    "02_Mix_Blend_Modes/mix-v-bg.html",
     {
       "filename": "02_Mix_Blend_Modes/blend-modes-all.html",
       "attr": {
@@ -174,16 +185,17 @@
     },
     {
       "attr": {
-        "data-background": "../resources/in-the-wild/netawards.png"
-      }
-    },
-    {
-      "attr": {
         "data-background-video": "../resources/in-the-wild/xoxco.mov"
       }
     }
   ],
-  [ {
+  [
+  {
+    "attr": {
+      "data-background": "../resources/drwho.jpg"
+    }
+    },
+    {
       "filename": "03_Background_Blend_Modes/filter-set.html",
       "attr": {
         "data-center": "true"
@@ -423,6 +435,7 @@
         "data-center": "true"
       }
     },
+    "Conclusion/caniusecmd.html",
     "Conclusion/trenitalia.html",
     {
     "filename": "Conclusion/just-begining.html",

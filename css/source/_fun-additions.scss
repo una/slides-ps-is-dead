@@ -87,3 +87,14 @@
   z-index: 3;
   left: 40%;
 }
+
+.active:after {
+  content: 'Active Layer';
+  position: absolute;
+  bottom: -1em;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+}

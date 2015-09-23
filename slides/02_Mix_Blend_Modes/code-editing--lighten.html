@@ -4,14 +4,18 @@
 
 <div class="live-code-area edit--lighten" style="margin-top: 1em">
   <div class="img-area">
-    <div class="images blend-example">
-      <img class="fragment" src="../../resources/filters/v-ice.jpg" alt="">
-      <img class="fragment" src="../../resources/filters/v-icecream.jpg" alt="">
+    <div class="images blend--lighten">
+      <div class="background fragment">
+        <img class="fragment" src="../../resources/blend-modes/surfpug.jpg" alt="">
+      </div>
+      <div class="active fragment">
+        <img src="../../resources/filters/blend-modes/skatepug.jpg" alt="">
+      </div>
     </div>
   </div>
 
   <div class="style-box-area">
-  <style class="code-editor" contenteditable>.blend-example img {
+  <style class="code-editor" contenteditable>.blend--lighten .active {
 // mix-blend-mode: lighten;
 // mix-blend-mode: screen;
 // mix-blend-mode: color-dodge;
