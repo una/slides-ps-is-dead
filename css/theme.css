@@ -744,6 +744,18 @@ button {
   top: 290px;
   left: 390px; }
 
+.emoji--knife {
+  position: absolute;
+  right: 0;
+  left: 420px;
+  text-align: center;
+  top: 35px;
+  bottom: 0;
+  width: 370px;
+  height: 400px;
+  background-image: url('../../resources/emoji/knife.png');
+  background-size: cover; }
+
 .hue-rotate .images, .edit--darken .images, .edit--lighten .images, .edit--comparative .images, .edit--contrast .images, .edit--composite .images {
   position: relative;
   display: block;
