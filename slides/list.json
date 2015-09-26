@@ -23,11 +23,7 @@
      }
    },
     "00_Intro/not-accesible.html",
-    { "filename": "00_Intro/31-countries-here.html",
-      "attr" : {
-        "data-center": "true"
-      }
-    },
+    "00_Intro/ps-is-clunky.html",
     { "filename": "00_Intro/not-responsive.html",
       "attr" : {
         "data-center": "true"
@@ -71,7 +67,6 @@
     },
     "00_Intro/prefixing.html",
   [
-    "01_CSS_Filters/simple.html",
     {
       "filename": "01_CSS_Filters/css-filters.html",
       "attr": {
@@ -81,7 +76,6 @@
     "01_CSS_Filters/caniuse.html",
     "01_CSS_Filters/basic-filters.html",
     "01_CSS_Filters/basic-filters--example.html",
-    "01_CSS_Filters/quick-solutions.html",
     "01_CSS_Filters/quick-solutions--iframe.html",
     "01_CSS_Filters/hue-rotate-hover.html"
   ],
@@ -94,7 +88,6 @@
     },
     "02_Mix_Blend_Modes/caniuse1.html",
     "02_Mix_Blend_Modes/caniuse2.html",
-    "02_Mix_Blend_Modes/mix-v-bg.html",
     {
       "filename": "02_Mix_Blend_Modes/blend-modes-all.html",
       "attr": {
@@ -111,6 +104,13 @@
       "filename": "02_Mix_Blend_Modes/blend-modes-split.html",
       "attr": {
         "data-transition": "none",
+        "data-center": "true"
+      }
+    },
+    {
+      "filename": "02_Mix_Blend_Modes/munsell.html",
+      "attr": {
+        "data-background": "#000",
         "data-center": "true"
       }
     },
@@ -170,11 +170,6 @@
     },
     {
       "attr": {
-        "data-background-video": "../resources/blend-modes/florence-sketch.mov"
-      }
-    },
-    {
-      "attr": {
         "data-background": "../resources/in-the-wild/frontendlondon.png"
       }
     },
@@ -191,10 +186,12 @@
   ],
   [
   {
+    "filename": "03_Background_Blend_Modes/drwho.html",
     "attr": {
-      "data-background": "../resources/drwho.jpg"
+      "data-center": "true",
+      "data-background": "../resources/etc/tardis.jpg"
     }
-    },
+  },
     {
       "filename": "03_Background_Blend_Modes/filter-set.html",
       "attr": {
@@ -208,7 +205,10 @@
       "filename": "03_Background_Blend_Modes/filter-raging-mist.html"
     },
     {
-      "filename": "03_Background_Blend_Modes/filter-raging-mist--example.html"
+      "filename": "03_Background_Blend_Modes/filter-raging-mist--example.html",
+      "attr": {
+        "data-transition": "none"
+      }
     },
     {
       "filename": "03_Background_Blend_Modes/filter-raging-mist--example2.html",
@@ -415,11 +415,30 @@
           "data-center": "true"
         }
     },
-    "05_Instagram/reyes.html",
-    "05_Instagram/aden.html",
-    "05_Instagram/inkwell.html",
-    "05_Instagram/walden.html",
-    "05_Instagram/perpetua.html"
+    {
+      "filename": "05_Instagram/reyes.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "05_Instagram/aden.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "05_Instagram/inkwell.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    },
+    {
+      "filename": "05_Instagram/perpetua.html",
+      "attr": {
+        "data-transition": "none"
+      }
+    }
   ],
   [
     {
@@ -435,8 +454,6 @@
         "data-center": "true"
       }
     },
-    "Conclusion/caniusecmd.html",
-    "Conclusion/trenitalia.html",
     {
     "filename": "Conclusion/just-begining.html",
       "attr": {

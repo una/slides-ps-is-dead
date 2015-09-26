@@ -1,3 +1,4 @@
+<div class="fragment">
 <div class="heading-area">
   <h2 class="heading--title">Instagram Filters in CSS: Perpetua</h2>
 </div>
@@ -16,14 +17,21 @@
 
   <div class="style-box-area">
   <style style="width: 75%; margin-top: -2em" class="code-editor" contenteditable>.perpetua {
-  -webkit-filter:
+  // nothing :);
 }
 
 .perpetua:after{
-  // put something here
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #005B9A, #E6C13D);
+  mix-blend-mode: soft-light;
+  opacity: .5;
 }</style>
   </div>
 
 <aside class="notes">
   filters
 </aside>
+</div>

@@ -1,0 +1,42 @@
+.emoji--knife {
+  position: absolute;
+  right: 0;
+  left: 420px;
+  text-align: center;
+  top: 80px;
+  bottom: 0;
+  width: 370px;
+  height: 400px;
+  background-image: url('../../resources/emoji/knife.png');
+  background-size: cover;
+}
+
+.emoji--zzz {
+  position: absolute;
+  right: 0;
+  left: 310px;
+  text-align: center;
+  top: 35px;
+  bottom: 0;
+  width: 600px;
+  height: 510px;
+  background-image: url('../../resources/emoji/sleepy.png');
+  background-size: cover;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+
+.emoji--salsa {
+  position: absolute;
+  right: 0;
+  left: 300px;
+  text-align: center;
+  top: 35px;
+  bottom: 0;
+  width: 600px;
+  height: 540px;
+  background-image: url('../../resources/emoji/salsa.png');
+  background-size: cover;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}

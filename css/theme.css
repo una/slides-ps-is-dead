@@ -744,18 +744,6 @@ button {
   top: 290px;
   left: 390px; }
 
-.emoji--knife {
-  position: absolute;
-  right: 0;
-  left: 420px;
-  text-align: center;
-  top: 35px;
-  bottom: 0;
-  width: 370px;
-  height: 400px;
-  background-image: url('../../resources/emoji/knife.png');
-  background-size: cover; }
-
 .hue-rotate .images, .edit--darken .images, .edit--lighten .images, .edit--comparative .images, .edit--contrast .images, .edit--composite .images {
   position: relative;
   display: block;
@@ -765,7 +753,7 @@ button {
 .hue-rotate .images div, .edit--darken .images div, .edit--lighten .images div, .edit--comparative .images div, .edit--contrast .images div, .edit--composite .images div {
   position: absolute;
   width: 400px;
-  transition: transform 1s ease-in-out; }
+  transition: transform 1.5s ease-in-out; }
   .hue-rotate .images div.background, .edit--darken .images div.background, .edit--lighten .images div.background, .edit--comparative .images div.background, .edit--contrast .images div.background, .edit--composite .images div.background {
     transform: translate(-100px, -100px); }
   .hue-rotate .images div.active, .edit--darken .images div.active, .edit--lighten .images div.active, .edit--comparative .images div.active, .edit--contrast .images div.active, .edit--composite .images div.active {
@@ -778,14 +766,14 @@ button {
 .tombstone {
   background: url('../../resources/etc/blank-tombstone.jpg');
   background-size: cover;
-  width: 800px;
-  height: 500px;
+  width: 900px;
+  height: 600px;
   perspective: 500px;
   opacity: 0; }
   .present .tombstone {
     animation: rise 2s ease-in forwards; }
   .tombstone:after {
-    content: '#PSisDead';
+    content: 'Photoshop';
     position: absolute;
     font-size: 2em;
     text-align: center;
@@ -856,3 +844,43 @@ button {
   width: 100%;
   display: block;
   text-align: center; }
+
+.emoji--knife {
+  position: absolute;
+  right: 0;
+  left: 420px;
+  text-align: center;
+  top: 80px;
+  bottom: 0;
+  width: 370px;
+  height: 400px;
+  background-image: url('../../resources/emoji/knife.png');
+  background-size: cover; }
+
+.emoji--zzz {
+  position: absolute;
+  right: 0;
+  left: 310px;
+  text-align: center;
+  top: 35px;
+  bottom: 0;
+  width: 600px;
+  height: 510px;
+  background-image: url('../../resources/emoji/sleepy.png');
+  background-size: cover;
+  z-index: 1;
+  mix-blend-mode: multiply; }
+
+.emoji--salsa {
+  position: absolute;
+  right: 0;
+  left: 300px;
+  text-align: center;
+  top: 35px;
+  bottom: 0;
+  width: 600px;
+  height: 540px;
+  background-image: url('../../resources/emoji/salsa.png');
+  background-size: cover;
+  z-index: 1;
+  mix-blend-mode: multiply; }

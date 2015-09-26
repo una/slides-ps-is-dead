@@ -15,7 +15,7 @@
   .images div {
     position: absolute;
     width: 400px;
-    transition: transform 1s ease-in-out;
+    transition: transform 1.5s ease-in-out;
 
     &.background {
       transform: translate(-100px, -100px)

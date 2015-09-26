@@ -1,8 +1,8 @@
 .tombstone {
   background: url('../../resources/etc/blank-tombstone.jpg');
   background-size: cover;
-  width: 800px;
-  height: 500px;
+  width: 900px;
+  height: 600px;
   perspective: 500px;
   opacity: 0;
 
@@ -11,7 +11,7 @@
     }
 
   &:after {
-    content: '#PSisDead';
+    content: 'Photoshop';
     position: absolute;
     font-size: 2em;
     text-align: center;
