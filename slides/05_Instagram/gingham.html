@@ -1,0 +1,39 @@
+<div class="heading-area">
+  <h2 class="heading--title">Instagram Filters in CSS: Gingham</h2>
+</div>
+
+<div class="live-code-area instagram">
+  <div class="img-area">
+    <div class="original">
+      <figure class="insta-orig gingham"></figure>
+      <p class="caption">Original</p>
+    </div>
+    <div class="filter">
+      <img src="../../resources/instagram/gingham.JPG" alt="">
+      <p class="caption">Gingham</p>
+    </div>
+  </div>
+
+  <div class="style-box-area">
+  <style style="width: 75%; margin-top: -2em" class="code-editor" contenteditable>.gingham {
+  -webkit-filter:
+    brightness(1.05)
+    hue-rotate(-10deg)
+    contrast(1.3)
+    saturate(1.2);
+}
+
+.gingham:after{
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle, #A5CACA, #387EA5);
+  mix-blend-mode: overlay;
+  opacity: .25;
+}</style>
+  </div>
+
+<aside class="notes">
+  filters
+</aside>
