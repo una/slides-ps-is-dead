@@ -1,0 +1,35 @@
+<div class="heading-area">
+  <h2 class="heading--title">Instagram Filters in CSS: Earlybird</h2>
+</div>
+
+<div class="live-code-area instagram">
+  <div class="img-area">
+    <div class="original">
+      <figure class="insta-orig earlybird"></figure>
+      <p class="caption">Original</p>
+    </div>
+    <div class="filter">
+      <img src="../../resources/instagram/earlybird.JPG" alt="">
+      <p class="caption">Earlybird</p>
+    </div>
+  </div>
+
+  <div class="style-box-area">
+  <style style="width: 75%; margin-top: -2em" class="code-editor" contenteditable>.earlybird {
+    -webkit-filter:
+      contrast(.9)
+      sepia(.2);
+}
+
+.earlybird:after{
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle, #D0BA8E 20%, #360309 85%, #1D0210 100%);
+  mix-blend-mode: overlay; }</style>
+  </div>
+
+<aside class="notes">
+  filters
+</aside>

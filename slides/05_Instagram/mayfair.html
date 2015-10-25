@@ -1,0 +1,38 @@
+<div class="heading-area">
+  <h2 class="heading--title">Instagram Filters in CSS: Mayfair</h2>
+</div>
+
+<div class="live-code-area instagram">
+  <div class="img-area">
+    <div class="original">
+      <figure class="insta-orig mayfair"></figure>
+      <p class="caption">Original</p>
+    </div>
+    <div class="filter">
+      <img src="../../resources/instagram/mayfair.JPG" alt="">
+      <p class="caption">Mayfair</p>
+    </div>
+  </div>
+
+  <div class="style-box-area">
+  <style style="width: 75%; margin-top: -2em" class="code-editor" contenteditable>.mayfair {
+  -webkit-filter:
+    contrast(1.1)
+    saturate(1.1);
+}
+
+.mayfair:after{
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle at 40% 40%, rgba(255,255,255, .8), rgba(255,200,200,.6), #111 60%);
+  mix-blend-mode: overlay;
+  opacity: .4;
+}
+</style>
+  </div>
+
+<aside class="notes">
+  filters
+</aside>
